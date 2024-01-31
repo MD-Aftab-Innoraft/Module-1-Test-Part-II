@@ -1,0 +1,182 @@
+html,
+body {
+  width: 1440px;
+}
+
+body {
+  /* Hide scrollbar on X-axis */
+  overflow-x: hidden; 
+}
+
+@font-face {
+  font-family: SharpGroteskMedium;
+  src: url(./parallel/SharpGrotesk-Medium.woff);
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url(./parallel/WorkSans-Regular.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: WorkSans;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+#hero {
+  background-color: #fff7f1;
+  padding: 85px 0px 190px 0px;
+}
+
+/* making hero container relative  */
+.hero-container{
+    position: relative;
+}
+
+.hero-top-text {
+  font-family: SharpGroteskMedium;
+  font-size: 22px;
+  margin-bottom: 8px;
+  transform: scale(1,0.7);
+}
+
+.hero-top-line{
+    display: block;
+    max-width: 185px;
+}
+
+.hero-logo {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.hero-line{
+  font-family: SharpGroteskMedium;
+  font-size: 82px;
+  margin-top: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.sign-up-text{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+input[type="email"] {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  display: block;
+  width: 350px;
+  margin: 20px 0px;
+  border: 2px solid #000000;
+
+}
+
+.submit-email-btn {
+  font-size: 16px;
+  background-color: #ffd560;
+  padding: 13px 34px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+
+.phone-image{
+    position: absolute;
+    top: 390px;
+    left: 620px;
+}
+
+.girl-smiling{
+    position: absolute;
+    top: 50px;
+    right: -60px;
+}
+
+
+footer{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer-links{
+  padding: 90px 0px 120px 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.968),rgba(0, 0, 0, 0.933)), url('./parallel/full-svg\ 1\ white.svg') no-repeat bottom / contain;
+  justify-content: space-evenly;
+}
+
+.footer-col-links li{
+  list-style-type: none;
+  margin: 35px 0px;
+}
+
+
+.footer-col-links a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFF7F1;
+  opacity: 0.9;
+}
+
+.hire-text{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.icon{
+  margin: 0px 10px;
+}
+
+#insta-icon{
+  margin-left: 0;
+}
+
+.footer-col-heading{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.foot-bottom{
+  background-color: rgba(0, 0, 0, 0.929);
+  color: #979797;
+  font-size: 12px;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+.rights{
+  margin-left: 150px;
+}
+
+.terms{
+  margin-right: 150px;
+}
+
+.terms a{
+  text-decoration: none;
+  color: #979797;
+}
+
+.terms-of-service{
+  margin-right: 20px;
+}
+
+
